@@ -1,0 +1,49 @@
+{
+  "name": "whorl",
+  "version": "0.0.1",
+  "description": "Try and figure out who is the author of a given URL.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "nyc mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/delucis/whorl.git"
+  },
+  "keywords": [
+    "who",
+    "url",
+    "page",
+    "author",
+    "web",
+    "meta",
+    "data",
+    "og",
+    "open",
+    "graph"
+  ],
+  "author": "Chris Swithinbank <swithinbank@gmail.com> (http://chrisswithinbank.net/)",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/delucis/whorl/issues"
+  },
+  "homepage": "https://github.com/delucis/whorl#readme",
+  "devDependencies": {
+    "chai": "^4.1.1",
+    "coveralls": "^2.13.1",
+    "mocha": "^3.5.0",
+    "nyc": "^11.1.0",
+    "read-yaml": "^1.1.0"
+  },
+  "dependencies": {
+    "array-to-sentence": "^1.1.0",
+    "html-metadata": "^1.6.3",
+    "is-url-superb": "^2.0.0",
+    "jsonpath": "^0.2.12",
+    "lodash.upperfirst": "^4.3.1",
+    "metascraper": "^1.0.7"
+  }
+}
