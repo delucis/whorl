@@ -131,6 +131,5 @@ module.exports = async function (url) {
   author = fromTwitter(urlObject)
   if (author) return author
   // all is lost
-  console.dir(data, { depth: null })
   return null
 }
