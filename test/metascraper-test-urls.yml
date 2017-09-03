@@ -1,0 +1,126 @@
+# adapted from the URLs used for testing by the metascraper module:
+# https://github.com/ianstormtaylor/metascraper/blob/master/support/comparison/urls.js
+-
+  url: 'http://economictimes.indiatimes.com/jobs/hackerrank-launches-job-search-platform-hackerrank-jobs/articleshow/50551900.cms'
+  author: J Vignesh
+  site: The Economic Times
+-
+  url: 'http://fortune.com/2015/10/05/hackerrank-recruiting-tool/'
+  author: Kia Kokalitcheva
+  site: Fortune
+-
+  url: 'http://gent.ilcore.com/2012/06/better-timer-for-javascript.html'
+  author: Tony Gentilcore
+  site: Fastersite (Blogger)
+-
+  url: 'http://jewishbusinessnews.com/2016/01/20/israeli-startup-jfrog-raises-50-million-in-c-round/'
+  author: Jewish Business News Correspondent
+  site: Jewish Business News
+-
+  url: 'http://mashable.com/2015/05/13/analytics-power-up-revenue/'
+  author: Stacey Bishop
+  site: Mashable
+-
+  url: 'http://motherboard.vice.com/read/google-wins-trial-against-oracle-saves-9-billion'
+  author: Sarah Jeong
+  site: Motherboard (Vice)
+-
+  url: 'http://social.techcrunch.com/2016/01/12/hackerrank-jobs-takes-the-mystery-out-of-technical-recruiting/'
+  author: Frederic Lardinois
+  site: TechCrunch
+# -
+#   url: 'http://www.bloomberg.com/news/articles/2016-05-24/as-zenefits-stumbles-gusto-goes-head-on-by-selling-insurance'
+#   author: Ellen Huet
+#   site: Bloomberg
+-
+  url: 'http://www.businesstoday.in/magazine/features/hackerrank-helping-cos-hire-coding-champions-via-online-tests/story/232567.html'
+  author: Sonal Khetarpal
+  site: Business Today
+-
+  url: 'http://www.cbronline.com/news/cloud/aas/virtustream-ceo-taking-a-masochistic-approach-to-fighting-in-the-cloud-market-4884858'
+  author: James Nunns
+  site: Computer Business Review
+-
+  url: 'http://www.cio.com/article/2929788/cloud-computing/20-ways-to-measure-the-success-of-your-growing-cloud-investment.html'
+  author: David Spark
+  site: CIO
+-
+  url: 'http://www.cloudpro.co.uk/go/6024'
+  author: Clare Hopping
+  site: CloudPro
+-
+  url: 'http://www.cnet.com/news/pebble-2-pebble-time-2-pebble-core-announced-coming-this-year-and-2017/'
+  author: Scott Stein
+  site: CNET
+-
+  url: 'http://www.computerworld.com/article/3057179/data-analytics/healthcare-data-protection-and-privacy-prognosis-still-critical-but-new-treatment-is-available.html'
+  author: Robert Shields
+  site: Computer World
+-
+  url: 'http://www.crn.com/news/cloud/300080531/emc-world-sources-say-emc-will-target-aws-s3-with-new-easy-storage-connectivity-to-virtustream.htm'
+  author: Joseph F. Kovar
+  site: CRN
+-
+  url: 'http://www.eweek.com/developer/microsoft-hackerrank-launch-bing-search-tool-for-programmers.html'
+  author: Darryl K. Taft
+  site: eWeek
+-
+  url: 'http://www.fastcompany.com/3060169/one-of-the-biggest-challenges-of-getting-funding-for-minority-owned-business'
+  author: Lydia Dishman
+  site: Fast Company
+-
+  url: 'http://www.fiercedevops.com/story/circleci-brings-another-18m-funding-series-b-round/2016-05-17'
+  author: ''
+  site: Fierce Dev Ops
+-
+  url: 'http://www.forbes.com/sites/georgeanders/2015/09/30/facebook-veteran-grady-burnett-joins-hackerrank-as-coo/'
+  author: George Anders
+  site: Forbes
+-
+  url: 'http://www.geektime.com/2016/04/21/fraud-solutions-forter-secures-payment-of-32m-in-series-c/'
+  author: Gabriel Avner
+  site: Geektime
+-
+  url: 'http://www.inc.com/jeremy-quittner/2016-30-under-30-neurensic.html'
+  author: Jeremy Quittner
+  site: Inc.
+-
+  url: 'http://www.informationweek.com/cloud/microsoft-expands-global-connectivity-with-local-startups/d/d-id/1325645'
+  author: Kelly Sheridan
+  site: InformationWeek
+-
+  url: 'http://www.latimes.com/business/technology/la-fi-tn-tech-downturn-20160429-story.html'
+  author: Tracey Lien
+  site: Los Angeles Times
+-
+  url: 'http://www.leandatainc.com/account-based-sales-marketing/the-winds-of-change'
+  author: Mark Emmons
+  site: Lean Data Inc.
+-
+  url: 'http://www.macrumors.com/2016/05/24/apple-siri-sdk-amazon-echo-competitor/'
+  author: Juli Clover
+  site: MacRumors
+-
+  url: 'http://www.prnewswire.com/news-releases/hackerrank--cybermedia-technologies-partner-to-help-close-the-stem-skills-gap-in-federal-government-300256929.html'
+  author: HackerRank
+  site: PR Newswire
+-
+  url: 'http://www.recode.net/2016/4/24/11586366/capital-gains-medium-an-uber-rival-a-drone-hunter-and-other-companies'
+  author: Noah Kulwin
+  site: Recode (Vox)
+-
+  url: 'http://www.reuters.com/article/us-venture-fundraising-idUSKCN0Y41DQ'
+  author: Heather Somerville
+  site: Reuters
+-
+  url: 'https://medium.com/@salesforce/net-dollar-churn-is-how-you-grow-your-business-gross-customer-churn-is-how-you-lose-your-business-52184f9c2625'
+  author: Salesforce # 'Alex Niehenke' is the author, but this is encoded as description/subtitle
+  site: Medium
+-
+  url: 'https://www.entrepreneur.com/article/275188'
+  author: Reuters # original author was 'Olivia Oran'
+  site: Entrepreneur
+-
+  url: 'https://www.linkedin.com/pulse/how-can-ai-change-financial-services-consolidation-finai-ramya-joseph'
+  author: Ramya Joseph
+  site: LinkedIn (blog)
