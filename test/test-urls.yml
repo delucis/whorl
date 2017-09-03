@@ -1,0 +1,218 @@
+#
+# ######## ##    ##  ######   ##       ####  ######  ##     ##
+# ##       ###   ## ##    ##  ##        ##  ##    ## ##     ##
+# ##       ####  ## ##        ##        ##  ##       ##     ##
+# ######   ## ## ## ##   #### ##        ##   ######  #########
+# ##       ##  #### ##    ##  ##        ##        ## ##     ##
+# ##       ##   ### ##    ##  ##        ##  ##    ## ##     ##
+# ######## ##    ##  ######   ######## ####  ######  ##     ##
+#
+-
+  url: http://www.nytimes.com/1982/12/19/books/the-poet-who-found-her-own-way.html
+  author: Rosemary Daniell
+  site: The New York Times (1982)
+-
+  url: http://www.nytimes.com/1987/12/10/books/use-of-real-names-in-novels-upheld.html
+  author: Herbert Mitgang
+  site: The New York Times (1987)
+-
+  url: http://www.nytimes.com/1994/08/19/nyregion/a-matter-of-identity-what-s-in-a-name-change-everything-you-can-imagine.html
+  author: Jennifer Steinhauer
+  site: The New York Times (1994)
+-
+  url: http://www.nytimes.com/2007/05/13/us/13names.html
+  author: The Associated Press
+  site: The New York Times (2007)
+-
+  url: http://www.nytimes.com/2013/09/29/books/review/elena-ferrantes-story-of-a-new-name.html
+  author: Joseph Luzzi
+  site: The New York Times (2013)
+-
+  url: http://www.newyorker.com/tech/elements/why-your-name-matters
+  author: Maria Konnikova
+  site: The New Yorker
+-
+  url: https://www.theguardian.com/media/2006/apr/21/tvandradio.charliebrooker
+  author: Charlie Brooker
+  site: The Guardian (2006)
+-
+  url: https://www.theguardian.com/science/2007/apr/29/theobserversuknewspages.uknews
+  author: Anushka Asthana
+  site: The Guardian (2007)
+-
+  url: https://www.theguardian.com/world/2013/oct/10/new-zealand-forgot-name-islands
+  author: Associated Press
+  site: The Guardian (2013)
+-
+  url: https://www.theguardian.com/books/2013/jun/20/need-new-names-bulawayo-review
+  author: Helon Habila
+  site: The Guardian (2013)
+-
+  url: https://www.theguardian.com/world/2017/sep/01/mumbai-residents-count-cost-rain-floods
+  author: Amrit Dhillon and Carlin Carr
+  site: The Guardian (2017, multiple authors)
+-
+  url: http://www.bbc.com/news/uk-40924069
+  author: Katie Wright
+  site: BBC News (2017)
+-
+  url: http://www.bbc.com/news/world-us-canada-41096514
+  author: BBC News
+  site: BBC News (2017)
+-
+  url: http://www.bbc.com/news/technology-41081676
+  author: BBC Monitoring
+  site: BBC News (2017)
+-
+  url: http://gizmodo.com/wait-does-donald-trump-know-the-leader-of-north-koreas-1794407350
+  author: Matt Novak
+  site: Gizmodo
+-
+  url: https://www.fastcompany.com/40456604/these-women-entrepreneurs-created-a-fake-male-cofounder-to-dodge-startup-sexism
+  author: John Paul Titlow
+  site: Fast Company
+-
+  url: https://news.vice.com/article/princeton-may-drop-woodrow-wilsons-name-because-he-was-a-racist
+  author: Olivia Becker and Simon Ostrovsky
+  site: Vice News (2015)
+-
+  url: https://news.vice.com/article/this-doesnt-have-a-name-a-molecule-of-water-can-exist-in-six-places-at-once-researchers-find
+  author: John Dyer
+  site: Vice News (2016)
+-
+  url: https://news.vice.com/story/small-unorganized-storm-wasnt-named-for-trump-agency-swears
+  author: Joshua Marcus
+  site: Vice News (2017)
+-
+  url: https://medium.com/@coralineada/on-opalgate-2efd0fc1e0fd
+  author: Coraline Ada Ehmke
+  site: Medium
+#
+#  ######   ######## ########  ##     ##    ###    ##    ##
+# ##    ##  ##       ##     ## ###   ###   ## ##   ###   ##
+# ##        ##       ##     ## #### ####  ##   ##  ####  ##
+# ##   #### ######   ########  ## ### ## ##     ## ## ## ##
+# ##    ##  ##       ##   ##   ##     ## ######### ##  ####
+# ##    ##  ##       ##    ##  ##     ## ##     ## ##   ###
+#  ######   ######## ##     ## ##     ## ##     ## ##    ##
+#
+-
+  url: http://www.faz.net/aktuell/gesellschaft/menschen/skurrile-namen-iphone-sieben-als-vorname-15170123.html
+  author: Sara Kreuter
+  site: Frankfurter Allgemeine (2017)
+-
+  url: http://www.fr.de/kultur/literatur/elena-ferrante-die-geschichte-eines-neuen-namens-trivial-ist-hier-rein-gar-nichts-a-738576
+  author: Christian Bos
+  site: Frankfurter Rundschau (2017)
+-
+  url: http://www.sueddeutsche.de/kultur/netz-depeschen-sag-mir-deinen-namen-1.1129056
+  author: Niklas Hofmann
+  site: Süddeutsche Zeitung (2011)
+-
+  url: http://www.sueddeutsche.de/kultur/italienische-literatur-die-braut-im-halbprofil-1.3322274
+  author: Maike Albath
+  site: Süddeutsche Zeitung (2017)
+-
+  url: http://www.zeit.de/2017/04/elena-ferrante-geschichte-eines-neuen-names-fortsetzung
+  author: Ernst Osterkamp
+  site: Die Zeit (2017)
+-
+  url: https://www.nzz.ch/feuilleton/elena-ferrantes-neapel-saga-in-der-schuld-des-ungluecks-ld.141596
+  author: Franz Haas
+  site: Neue Zürcher Zeitung (2017)
+#
+# ######## ########  ######## ##    ##  ######  ##     ##
+# ##       ##     ## ##       ###   ## ##    ## ##     ##
+# ##       ##     ## ##       ####  ## ##       ##     ##
+# ######   ########  ######   ## ## ## ##       #########
+# ##       ##   ##   ##       ##  #### ##       ##     ##
+# ##       ##    ##  ##       ##   ### ##    ## ##     ##
+# ##       ##     ## ######## ##    ##  ######  ##     ##
+#
+-
+  url: http://www.lemonde.fr/archives/article/1985/02/07/nom-de-nom_2750865_1819218.html?xtmc=nom&xtcr=2
+  author: Claude Sarraute
+  site: Le Monde (1985)
+-
+  url: http://www.lemonde.fr/une-abonnes/article/2004/11/24/sans-nom_388304_3207.html?xtmc=nom&xtcr=6
+  author: Le Monde
+  site: Le Monde (2004)
+-
+  url: http://www.lemonde.fr/idees/article/2009/09/29/un-nom-imprononcable_1246727_3232.html?xtmc=nom&xtcr=8
+  author: Catherine M'Boudi
+  site: Le Monde (2009)
+-
+  url: http://www.lemonde.fr/m-actu/article/2015/06/05/nom-nom-et-nom_4647092_4497186.html
+  author: Lucie Soullier
+  site: Le Monde (2015, M le Magazine)
+-
+  url: http://www.lefigaro.fr/livres/2016/12/02/03005-20161202ARTFIG00156--le-nouveau-nom-d-elena-ferrante-sacre-meilleur-livre-de-l-annee.php
+  author: AFP Agence and Elena Scappaticci
+  site: Le Figaro (2016)
+-
+  url: http://www.leparisien.fr/flash-actualite-culture/le-nouveau-nom-d-elena-ferrante-meilleur-livre-de-l-annee-02-12-2016-6402228.php
+  author: Le Parisien
+  site: Le Parisien (2016)
+-
+  url: http://www.rtl.be/info/monde/europe/-le-nouveau-nom-d-elena-ferrante-meilleur-livre-de-l-annee--871683.aspx
+  author: AFP
+  site: RTL.be (2016)
+#
+#    ###    ########     ###    ########  ####  ######
+#   ## ##   ##     ##   ## ##   ##     ##  ##  ##    ##
+#  ##   ##  ##     ##  ##   ##  ##     ##  ##  ##
+# ##     ## ########  ##     ## ########   ##  ##
+# ######### ##   ##   ######### ##     ##  ##  ##
+# ##     ## ##    ##  ##     ## ##     ##  ##  ##    ##
+# ##     ## ##     ## ##     ## ########  ####  ######
+#
+-
+  url: http://blogs.aljazeera.net/blogs/2016/8/14/%D8%A7%D9%84%D8%AD%D9%8A%D8%A7%D8%AF-%D8%A7%D8%B3%D9%85-%D8%AC%D9%85%D9%8A%D9%84-%D9%84%D9%85%D8%B9%D9%86%D9%89-%D9%82%D8%A8%D9%8A%D8%AD
+  author: 'رضوان الأخرس'
+  site: Al Jazeera (2016, blogs)
+-
+  url: https://www.madamasr.com/ar/2017/07/26/feature/%D8%B3%D9%8A%D8%A7%D8%B3%D8%A9/%D8%AA%D9%86%D8%B8%D9%8A%D9%85-%D8%A8%D9%84%D8%A7-%D8%A7%D8%B3%D9%85-%D8%B7%D8%B1%D9%8A%D9%82-%D9%85%D8%AC%D9%85%D9%88%D8%B9%D8%A9-%D8%A7%D9%84%D9%85%D8%A8%D8%AA%D8%AF%D8%A6%D9%8A%D9%86-%D9%84%D8%A7/
+  author: 'محمد حمامة'
+  site: 'Mada Masr (2017)'
+#
+# ######## ##      ## #### ######## ######## ######## ########
+#    ##    ##  ##  ##  ##     ##       ##    ##       ##     ##
+#    ##    ##  ##  ##  ##     ##       ##    ##       ##     ##
+#    ##    ##  ##  ##  ##     ##       ##    ######   ########
+#    ##    ##  ##  ##  ##     ##       ##    ##       ##   ##
+#    ##    ##  ##  ##  ##     ##       ##    ##       ##    ##
+#    ##     ###  ###  ####    ##       ##    ######## ##     ##
+#
+-
+  url: https://twitter.com/npmjs/status/590307732042973184
+  author: '@npmjs'
+  site: Twitter
+-
+  url: https://mobile.twitter.com/npmjs/status/590307732042973184
+  author: '@npmjs'
+  site: Twitter (Mobile)
+-
+  url: https://twitter.com/npmjs
+  author: '@npmjs'
+  site: Twitter (Profile)
+-
+  url: https://twitter.com/search
+  author: null
+  site: Twitter (Search)
+-
+  url: https://twitter.com/help
+  author: null
+  site: Twitter (Help)
+#
+# ########    ###     ######  ######## ########   #######   #######  ##    ##
+# ##         ## ##   ##    ## ##       ##     ## ##     ## ##     ## ##   ##
+# ##        ##   ##  ##       ##       ##     ## ##     ## ##     ## ##  ##
+# ######   ##     ## ##       ######   ########  ##     ## ##     ## #####
+# ##       ######### ##       ##       ##     ## ##     ## ##     ## ##  ##
+# ##       ##     ## ##    ## ##       ##     ## ##     ## ##     ## ##   ##
+# ##       ##     ##  ######  ######## ########   #######   #######  ##    ##
+#
+-
+  url: https://www.facebook.com/nonameraps/posts/847406918761727
+  author: Noname
+  site: Facebook (Page Post)
