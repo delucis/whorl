@@ -1,6 +1,6 @@
 {
   "name": "whorl",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Try and figure out who is the author of a given URL.",
   "main": "index.js",
   "directories": {
