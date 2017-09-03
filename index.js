@@ -19,12 +19,40 @@ function toStartCase (string) {
   return string
 }
 
+function reduceWhitespace (string) {
+  return string.replace(/\s+/g, ' ')
+}
+
+function trimPunctuation (string) {
+  const punctuation = '\\s-–—….,;:?!¡•/\\(){}<>*%@$¢€$#‹›«»‘’“”"\'[\\]'
+  let leadingPunctuation = new RegExp('^[' + punctuation + ']+')
+  let trailingPunctuation = new RegExp('[' + punctuation + ']+$')
+  string = string.replace(leadingPunctuation, '')
+  string = string.replace(trailingPunctuation, '')
+  return string
+}
+
+function removeTextFollowingPunctuation (string) {
+  const punctuationWithLeadingSpace = '-.–,—\'’'
+  const punctuation = '…;:?!¡•/\\(){}<>*%@$¢€$#‹›«»‘“”"[\\]'
+  let followingPunctuation = new RegExp('(\\s+[' + punctuationWithLeadingSpace + ']|[' + punctuation + ']+).+$')
+  return string.replace(followingPunctuation, '')
+}
+
+function stripLeadingPreposition (string) {
+  const prepositions = 'by|von|par'
+  const leadingPrepositions = new RegExp('^(' + prepositions + ')\\s+', 'i')
+  return string.replace(leadingPrepositions, '')
+}
+
 function tidy (string) {
-  string = string.trim()                      // strip whitespace
-  string = string.match(/^(by +)?(.+)$/i)[2]  // remove ‘by’ or ‘By’ from start
+  string = reduceWhitespace(string)         // reduce any whitespace to single spaces
+  string = string.trim()                    // strip leading or trailing whitespace
+  string = trimPunctuation(string)          // strip leading or trailing punctuation
+  string = stripLeadingPreposition(string)  // remove common prepositions from start of string
+  string = removeTextFollowingPunctuation(string)
   if (string === string.toUpperCase()) string = toStartCase(string)
-  if (string) return string
-  return null
+  return string
 }
 
 function fromAuthor (meta) {
