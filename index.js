@@ -127,7 +127,7 @@ module.exports = async function (url) {
   if (author) return author
   // handle Twitter
   // create parsed URL from metadata URL
-  let urlObject = new URL(data.general.canonical)
+  let urlObject = new URL(data.general.canonical || url)
   author = fromTwitter(urlObject)
   if (author) return author
   // all is lost
