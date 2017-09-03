@@ -64,9 +64,7 @@ module.exports = async function (url) {
   if (!isUrl(url)) return null
   // fetch metadata
   let data = await scrape(url)
-  // first try <meta name="author" … >
-  let author = fromAuthor(data.general)
-  if (author) return author
+  let author = null
   // try to extract author from JSON-LD
   if (data.hasOwnProperty('jsonLd')) {
     author = fromStructuredData(data.jsonLd)
@@ -77,6 +75,9 @@ module.exports = async function (url) {
     author = fromStructuredData(data.schemaOrg)
     if (author) return author
   }
+  // try <meta name="author" … >
+  author = fromAuthor(data.general)
+  if (author) return author
   // handle Twitter
   // create parsed URL from metadata URL
   let urlObject = new URL(data.general.canonical)
