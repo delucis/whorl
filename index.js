@@ -33,13 +33,17 @@ function fromAuthor (meta) {
   return null
 }
 
-function fromStructuredData (data) {
+function queryStructuredData (data) {
   let results = []
-  jp.query(data, '$..author').map(author => {
+  let authors = jp.query(data, '$..author')
+  authors.map(author => {
     if (typeof author === 'string') {
       results.push(author)
-    } else {
-      jp.query(author, '$..name').map(name => {
+      return
+    }
+    let names = jp.query(author, '$..name')
+    if (names.length > 0) {
+      names.map(name => {
         if (typeof name === 'string') {
           results.push(name)
         }
@@ -47,8 +51,21 @@ function fromStructuredData (data) {
           name.map(n => { results.push(n) })
         }
       })
+      return
+    }
+    if (Array.isArray(author)) {
+      author.map(member => {
+        if (typeof member === 'string') {
+          results.push(member)
+        }
+      })
     }
   })
+  return results
+}
+
+function fromStructuredData (data) {
+  let results = queryStructuredData(data)
   results.forEach((result, i, a) => { a[i] = tidy(result) })
   if (results.length === 1) {
     return results[0]
