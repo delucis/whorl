@@ -7,6 +7,7 @@
     "test": "test"
   },
   "scripts": {
+    "coverage": "nyc report --reporter=text-lcov | coveralls",
     "test": "nyc mocha --reporter spec"
   },
   "repository": {
