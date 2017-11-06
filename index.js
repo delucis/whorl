@@ -93,6 +93,12 @@ function queryStructuredData (data) {
   return results
 }
 
+function isValidResult (res) {
+  let validity = res.length > 0
+  if (validity) { validity = !isUrl(res) }
+  return validity
+}
+
 function fromStructuredData (data) {
   let results = queryStructuredData(data)
   results.forEach((result, i, a) => { a[i] = tidy(result) })
