@@ -100,6 +100,7 @@ function isSlug (string) {
 function isValidResult (res) {
   let validity = res.length > 0
   if (validity) { validity = !isUrl(res) }
+  if (validity) { validity = !isSlug(res) }
   return validity
 }
 
