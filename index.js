@@ -122,7 +122,12 @@ module.exports = async function (url) {
   // that’s not even a URL (╯°□°）╯︵ ┻━┻
   if (!isUrl(url)) return null
   // fetch metadata
-  let data = await scrape(url)
+  let data
+  try {
+    data = await scrape(url)
+  } catch (e) {
+    return null
+  }
   let author = null
   // try to extract author from JSON-LD
   if (data.hasOwnProperty('jsonLd')) {
