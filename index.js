@@ -131,7 +131,7 @@ module.exports = async function (url) {
   }
   // try <meta name="author" … >
   author = fromAuthor(data.general)
-  if (author) return author
+  if (author && isValidResult(author)) return author
   // handle Twitter
   // create parsed URL from metadata URL
   let urlObject = new URL(data.general.canonical || url)
