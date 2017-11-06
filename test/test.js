@@ -28,6 +28,8 @@ function testUrlArray (urlArray) {
     let rows = []
     let testCount = 0
     let passedCount = 0
+    let nullCount = 0
+    let failCount = 0
 
     for (let test of urlArray) {
       testCount++
@@ -44,6 +46,11 @@ function testUrlArray (urlArray) {
               test.author,
               CHALK.red(author || 'null')
             ])
+            if (author === null) {
+              nullCount++
+            } else {
+              failCount++
+            }
           }
           EXPECT(author).to.match(authorRE)
         } else {
@@ -64,7 +71,7 @@ function testUrlArray (urlArray) {
         }
       ]
       let percentPassed = passedCount / testCount * 100
-      let footerString = `${passedCount}/${testCount} (${percentPassed.toFixed(2)}%)`
+      let footerString = `${passedCount}/${testCount} (${percentPassed.toFixed(2)}%), ${nullCount} null, ${failCount} misidentified`
       if (percentPassed < 50) {
         footerString = CHALK.bgRed(footerString)
       } else if (percentPassed < 75) {
