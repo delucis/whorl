@@ -101,6 +101,7 @@ function isValidResult (res) {
 
 function fromStructuredData (data) {
   let results = queryStructuredData(data)
+  results = results.filter(result => isValidResult(result))
   results.forEach((result, i, a) => { a[i] = tidy(result) })
   results = unique(results)
   if (results.length === 1) {
