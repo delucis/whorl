@@ -93,6 +93,10 @@ function queryStructuredData (data) {
   return results
 }
 
+function isSlug (string) {
+  return /^[\d\w-]+\.[\w]*$/.test(string)
+}
+
 function isValidResult (res) {
   let validity = res.length > 0
   if (validity) { validity = !isUrl(res) }
