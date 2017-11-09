@@ -63,7 +63,9 @@ function fromAuthor (meta) {
 
 function queryStructuredData (data) {
   let results = []
-  let authors = jp.query(data, '$..author')
+  let authorWithArticleBody = jp.query(data, '$..*[?(@["author"] && (@["https://schema.org/articleBody"]) || @["articleBody"])]')
+  let dataSource = authorWithArticleBody.length > 0 ? authorWithArticleBody : data
+  let authors = jp.query(dataSource, '$..author')
   authors.map(author => {
     if (typeof author === 'string') {
       results.push(author)
