@@ -47,7 +47,6 @@
     "is-url-superb": "^2.0.0",
     "jsonpath": "^1.0.0",
     "lodash.uniq": "^4.5.0",
-    "lodash.upperfirst": "^4.3.1",
-    "metascraper": "^1.0.7"
+    "lodash.upperfirst": "^4.3.1"
   }
 }
