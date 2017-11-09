@@ -130,7 +130,10 @@ module.exports = async function (url) {
   // fetch metadata
   let data
   try {
-    data = await scrape(url)
+    data = await scrape({
+      url: url,
+      headers: { 'User-Agent': 'whorl' }
+    })
   } catch (e) {
     return null
   }
