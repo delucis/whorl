@@ -6,7 +6,6 @@ const scrape = require('html-metadata')
 const jp = require('jsonpath')
 const arrayToSentence = require('array-to-sentence')
 const upperfirst = require('lodash.upperfirst')
-const unique = require('lodash.uniq')
 const fromTwitter = require('./lib/twitter')
 
 function toStartCase (string) {
@@ -106,9 +105,14 @@ function isValidResult (res) {
 
 function fromStructuredData (data) {
   let results = queryStructuredData(data)
-  results = results.filter(result => isValidResult(result))
-  results.forEach((result, i, a) => { a[i] = tidy(result) })
-  results = unique(results)
+  results = results.reduce((results, author) => {
+    if (!isValidResult(author)) return results
+    author = tidy(author)
+    if (isValidResult(author) && !results.includes(author)) {
+      results.push(author)
+    }
+    return results
+  }, [])
   if (results.length === 1) {
     return results[0]
   }
