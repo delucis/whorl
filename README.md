@@ -29,16 +29,7 @@ If no author(s) can be deduced or the input URL is not valid, `whorl` will retur
 
 ## Accuracy
 
-Current tests return the correct author for around 73% of URLs and no author at all for 22% of URLs.
-
-URL test set                                   | # of URLs | accurate | inaccurate | `null`
------------------------------------------------|:---------:|----------|------------|-----------
-[whorl](test/test-urls.yml)                    |    48     | 36 (75%) | 4 (8.33%)  | 8 (16.66%)
-[metascraper](test/metascraper-test-urls.yml)* |    30     | 21 (70%) | 0 (0%)     | 9 (30%)
-
-<small>\* The `metascraper` package [reports a 87.5% success rate][7f1cb556] for accurate author retrieval with these URLs.</small>
-
-  [7f1cb556]: https://github.com/ianstormtaylor/metascraper/tree/master/support/comparison#author "metascraper test results"
+Read [the latest test results](benchmarking/benchmark.md).
 
 
 ## API
