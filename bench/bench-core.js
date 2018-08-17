@@ -6,8 +6,8 @@ const CHALK = require('chalk')
 
 // load test URLs from file
 const READ = require('read-yaml').sync
-const TEST_URLS = READ('./benchmarking/test-urls.yml')
-const METASCRAPER_URLS = READ('./benchmarking/metascraper-test-urls.yml')
+const TEST_URLS = READ('./bench/test-urls.yml')
+const METASCRAPER_URLS = READ('./bench/metascraper-test-urls.yml')
 
 /**
  * Test URLs against a given function that should return an author given a URL.
