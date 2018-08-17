@@ -7,7 +7,7 @@
     "test": "test"
   },
   "scripts": {
-    "bench": "node bench/bench.js",
+    "bench": "npm i got metascraper node-metainspector unfluff; node bench/bench.js",
     "coverage": "nyc report --reporter=text-lcov | coveralls",
     "test": "nyc mocha --reporter spec"
   },
@@ -37,14 +37,10 @@
     "chai": "^4.1.2",
     "chalk": "^2.4.1",
     "coveralls": "^3.0.2",
-    "got": "^9.0.0",
-    "metascraper": "^3.12.1",
     "mocha": "^5.2.0",
-    "node-metainspector": "^1.3.0",
     "nyc": "^12.0.2",
     "read-yaml": "^1.1.0",
-    "tty-table": "^2.6.8",
-    "unfluff": "^3.2.0"
+    "tty-table": "^2.6.8"
   },
   "dependencies": {
     "array-to-sentence": "^2.0.0",
