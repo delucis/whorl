@@ -59,7 +59,7 @@ URL test set | # of URLs | accurate | inaccurate | \`null\`
 
 Here are results for the same ${totalTestCount} test URLs using several different libraries:
 
-library`
+**library**`
 
   for (let lib in results) {
     md += ` | \`${lib}\``
@@ -69,19 +69,19 @@ library`
 
   for (let i = 0; i < Object.keys(results).length; i++) md += '|---'
 
-  md += '\naccurate'
+  md += '\n**accurate**'
 
   for (let lib in totals) {
-    md += ` | **${(totals[lib].totalPassCount / totals[lib].totalTestCount * 100).toFixed(2)}%**`
+    md += ` | ${(totals[lib].totalPassCount / totals[lib].totalTestCount * 100).toFixed(2)}%`
   }
 
-  md += '\ninnacurate'
+  md += '\n**innacurate**'
 
   for (let lib in totals) {
     md += ` | ${(totals[lib].totalFailCount / totals[lib].totalTestCount * 100).toFixed(2)}%`
   }
 
-  md += '\n`null`'
+  md += '\n**`null`**'
 
   for (let lib in totals) {
     md += ` | ${(totals[lib].totalNullCount / totals[lib].totalTestCount * 100).toFixed(2)}%`
