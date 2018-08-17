@@ -14,6 +14,6 @@ Here are results for the same 80 test URLs using several different libraries:
 
 library | `whorl` | `metascraper` | `unfluff` | `node-metainspector`
 --------|---|---|---|---
-accurate | **67.50%** | **65.00%** | **35.00%** | **27.50%**
-innacurate | 7.50% | 17.50% | 62.50% | 68.75%
-`null` | 25.00% | 17.50% | 2.50% | 3.75%
+accurate | **67.50%** | **63.75%** | **33.75%** | **21.25%**
+innacurate | 7.50% | 17.50% | 63.75% | 63.75%
+`null` | 25.00% | 18.75% | 2.50% | 15.00%
