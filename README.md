@@ -29,7 +29,7 @@ If no author(s) can be deduced or the input URL is not valid, `whorl` will retur
 
 ## Accuracy
 
-Read [the latest test results](benchmarking/benchmark.md).
+Read [the latest test results](bench/benchmark.md).
 
 
 ## API
