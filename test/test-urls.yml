@@ -53,7 +53,7 @@
   site: The Guardian (2017)
 -
   url: https://www.theguardian.com/world/2017/sep/01/mumbai-residents-count-cost-rain-floods
-  author: Amrit Dhillon and Carlin Carr
+  author: Carlin Carr and Amrit Dhillon
   site: The Guardian (2017, multiple authors)
 -
   url: http://www.bbc.com/news/uk-40924069
@@ -85,7 +85,7 @@
   site: Vice News (2016)
 -
   url: https://news.vice.com/story/small-unorganized-storm-wasnt-named-for-trump-agency-swears
-  author: Joshua Marcus
+  author: Josh Marcus
   site: Vice News (2017)
 -
   url: https://www.theatlantic.com/technology/archive/2011/08/why-facebook-and-googles-concept-of-real-names-is-revolutionary/243171/
@@ -103,6 +103,14 @@
   url: https://www.theatlantic.com/magazine/archive/2017/01/my-president-was-black/508793/
   author: Ta-Nehisi Coates
   site: The Atlantic (2017)
+-
+  url: http://nymag.com/daily/intelligencer/2017/07/climate-change-earth-too-hot-for-humans.html
+  author: David Wallace-Wells
+  site: New York Magazine (2017)
+-
+  url: https://www.lrb.co.uk/v37/n16/owen-bennett-jones/we-and-you
+  author: Owen Bennett-Jones
+  site: London Review of Books (2015)
 -
   url: https://medium.com/@coralineada/on-opalgate-2efd0fc1e0fd
   author: Coraline Ada Ehmke
