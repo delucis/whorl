@@ -8,6 +8,7 @@
   },
   "scripts": {
     "bench": "npm i --no-save got metascraper node-metainspector unfluff; node bench/bench.js",
+    "unbench": "npm un got metascraper node-metainspector unfluff",
     "coverage": "nyc report --reporter=text-lcov | coveralls",
     "test": "nyc mocha --reporter spec"
   },
