@@ -87,6 +87,12 @@ Here are results for the same ${totalTestCount} test URLs using several differen
     md += ` | ${(totals[lib].totalNullCount / totals[lib].totalTestCount * 100).toFixed(2)}%`
   }
 
+  md += '\n**vulnerabilities**'
+
+  for (var lib in totals) {
+    md += ` | [![Known Vulnerabilities](https://snyk.io/test/npm/${lib}/badge.svg)](https://snyk.io/test/npm/${lib})`
+  }
+
   await WRITE('bench/benchmark.md', md)
 }
 
