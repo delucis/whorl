@@ -93,6 +93,13 @@ Here are results for the same ${totalTestCount} test URLs using several differen
     md += ` | [![Known Vulnerabilities](https://snyk.io/test/npm/${lib}/badge.svg)](https://snyk.io/test/npm/${lib})`
   }
 
+  let fmt = new Intl.DateTimeFormat('en-GB', { day: 'numeric', month: 'long', year: 'numeric' })
+  let d = fmt.format(new Date())
+
+  md += `
+
+_Last updated: ${d}_`
+
   await WRITE('bench/benchmark.md', md)
 }
 
