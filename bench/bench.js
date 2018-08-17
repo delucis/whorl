@@ -87,7 +87,7 @@ library`
     md += ` | ${(totals[lib].totalNullCount / totals[lib].totalTestCount * 100).toFixed(2)}%`
   }
 
-  await WRITE('benchmarking/benchmark.md', md)
+  await WRITE('bench/benchmark.md', md)
 }
 
 runTests()
