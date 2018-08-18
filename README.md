@@ -1,6 +1,6 @@
 # whorl ✏️❔
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/delucis/whorl.svg)](https://greenkeeper.io/)
+[![Build Status](https://travis-ci.com/delucis/whorl.svg?branch=master)](https://travis-ci.com/delucis/whorl) [![Greenkeeper badge](https://badges.greenkeeper.io/delucis/whorl.svg)](https://greenkeeper.io/)
 
 IPA: /huˌɑɹˈɛl/
 
