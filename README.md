@@ -1,5 +1,7 @@
 # whorl ✏️❔
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/delucis/whorl.svg)](https://greenkeeper.io/)
+
 IPA: /huˌɑɹˈɛl/
 
 **⚠️ WORK IN PROGRESS ⚠️**
