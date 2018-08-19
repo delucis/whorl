@@ -9,10 +9,7 @@ const fromTwitter = require('./lib/twitter')
 
 const upperfirst = s => s[0].toUpperCase() + s.slice(1)
 const toStartCase = s => s.toLowerCase().split(' ').map(upperfirst).join(' ')
-
-function reduceWhitespace (string) {
-  return string.replace(/\s+/g, ' ')
-}
+const collapseWhitespace = s => s.replace(/\s+/g, ' ')
 
 function trimPunctuation (string) {
   const punctuation = '\\s-–—….,;:?!¡•/\\(){}<>*%@$¢€$#‹›«»‘’“”"\'[\\]'
@@ -37,7 +34,7 @@ function stripLeadingPreposition (string) {
 }
 
 function tidy (string) {
-  string = reduceWhitespace(string)         // reduce any whitespace to single spaces
+  string = collapseWhitespace(string)       // reduce any whitespace to single spaces
   string = string.trim()                    // strip leading or trailing whitespace
   string = trimPunctuation(string)          // strip leading or trailing punctuation
   string = stripLeadingPreposition(string)  // remove common prepositions from start of string
