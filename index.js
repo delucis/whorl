@@ -5,9 +5,9 @@ const isUrl = require('is-url-superb')
 const scrape = require('html-metadata')
 const jp = require('jsonpath')
 const arrayToSentence = require('./lib/list')
-const upperfirst = s => s[0].toUpperCase() + s.slice(1)
 const fromTwitter = require('./lib/twitter')
 
+const upperfirst = s => s[0].toUpperCase() + s.slice(1)
 const toStartCase = s => s.toLowerCase().split(' ').map(upperfirst).join(' ')
 
 function reduceWhitespace (string) {
