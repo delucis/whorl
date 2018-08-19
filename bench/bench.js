@@ -59,35 +59,35 @@ URL test set | # of URLs | accurate | inaccurate | \`null\`
 
 Here are results for the same ${totalTestCount} test URLs using several different libraries:
 
-**library**`
+_**library**_`
 
   for (let lib in results) {
     md += ` | \`${lib}\``
   }
 
-  md += '\n--------'
+  md += '\n-------:'
 
-  for (let i = 0; i < Object.keys(results).length; i++) md += '|---'
+  for (let i = 0; i < Object.keys(results).length; i++) md += '|:---:'
 
-  md += '\n**accurate**'
+  md += '\n_**accurate**_'
 
   for (let lib in totals) {
     md += ` | ${(totals[lib].totalPassCount / totals[lib].totalTestCount * 100).toFixed(2)}%`
   }
 
-  md += '\n**innacurate**'
+  md += '\n_**innacurate**_'
 
   for (let lib in totals) {
     md += ` | ${(totals[lib].totalFailCount / totals[lib].totalTestCount * 100).toFixed(2)}%`
   }
 
-  md += '\n**`null`**'
+  md += '\n_**`null`**_'
 
   for (let lib in totals) {
     md += ` | ${(totals[lib].totalNullCount / totals[lib].totalTestCount * 100).toFixed(2)}%`
   }
 
-  md += '\n**vulnerabilities**'
+  md += '\n_**vulnerabilities**_'
 
   for (var lib in totals) {
     md += ` | [![Known Vulnerabilities](https://snyk.io/test/npm/${lib}/badge.svg)](https://snyk.io/test/npm/${lib})`
