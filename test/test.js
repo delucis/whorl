@@ -47,21 +47,4 @@ DESCRIBE('whorl', function () {
     let a = await WHORL('https://www.theatlantic.com/technology/archive/2011/08/why-facebook-and-googles-concept-of-real-names-is-revolutionary/243171/')
     EXPECT(a).to.equal('Alexis C. Madrigal')
   })
-
-  DESCRIBE('lib/twitter.js (Twitter handling)', function () {
-    IT('should return a handle from a status', async () => {
-      let a = await WHORL('https://twitter.com/npmjs/status/590307732042973184')
-      EXPECT(a).to.equal('@npmjs')
-    })
-
-    IT('should return a handle from a profile', async () => {
-      let a = await WHORL('https://twitter.com/npmjs')
-      EXPECT(a).to.equal('@npmjs')
-    })
-
-    IT('should return null if not a status or profile', async () => {
-      let a = await WHORL('https://twitter.com/search')
-      EXPECT(a).to.be.null
-    })
-  })
 })
