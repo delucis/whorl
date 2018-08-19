@@ -4,19 +4,11 @@ const { URL } = require('url')
 const isUrl = require('is-url-superb')
 const scrape = require('html-metadata')
 const jp = require('jsonpath')
-const arrayToSentence = require('array-to-sentence')
-const upperfirst = require('lodash.upperfirst')
+const arrayToSentence = require('./lib/list')
 const fromTwitter = require('./lib/twitter')
 
-function toStartCase (string) {
-  string = string.toLowerCase()
-  string = string.split(' ')
-  string.forEach((word, i, a) => {
-    a[i] = upperfirst(word)
-  })
-  string = string.join(' ')
-  return string
-}
+const upperfirst = s => s[0].toUpperCase() + s.slice(1)
+const toStartCase = s => s.toLowerCase().split(' ').map(upperfirst).join(' ')
 
 function reduceWhitespace (string) {
   return string.replace(/\s+/g, ' ')
