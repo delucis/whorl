@@ -8,15 +8,7 @@ const arrayToSentence = require('./lib/list')
 const upperfirst = s => s[0].toUpperCase() + s.slice(1)
 const fromTwitter = require('./lib/twitter')
 
-function toStartCase (string) {
-  string = string.toLowerCase()
-  string = string.split(' ')
-  string.forEach((word, i, a) => {
-    a[i] = upperfirst(word)
-  })
-  string = string.join(' ')
-  return string
-}
+const toStartCase = s => s.toLowerCase().split(' ').map(upperfirst).join(' ')
 
 function reduceWhitespace (string) {
   return string.replace(/\s+/g, ' ')
