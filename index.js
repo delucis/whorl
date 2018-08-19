@@ -5,7 +5,7 @@ const isUrl = require('is-url-superb')
 const scrape = require('html-metadata')
 const jp = require('jsonpath')
 const arrayToSentence = require('./lib/list')
-const upperfirst = require('lodash.upperfirst')
+const upperfirst = s => s[0].toUpperCase() + s.slice(1)
 const fromTwitter = require('./lib/twitter')
 
 function toStartCase (string) {
