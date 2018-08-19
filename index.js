@@ -4,7 +4,7 @@ const { URL } = require('url')
 const isUrl = require('is-url-superb')
 const scrape = require('html-metadata')
 const jp = require('jsonpath')
-const arrayToSentence = require('array-to-sentence')
+const arrayToSentence = require('./lib/list')
 const upperfirst = require('lodash.upperfirst')
 const fromTwitter = require('./lib/twitter')
 
