@@ -5,7 +5,7 @@ const TABLE = require('tty-table')
 const CHALK = require('chalk')
 
 // load test URLs from file
-const READ = require('read-yaml').sync
+const READ = require('./lib/read-yaml')
 const TEST_URLS = READ('./bench/test-urls.yml')
 const METASCRAPER_URLS = READ('./bench/metascraper-test-urls.yml')
 
