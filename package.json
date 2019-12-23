@@ -44,7 +44,7 @@
     "coveralls": "^3.0.4",
     "js-yaml": "^3.13.1",
     "mocha": "^6.1.4",
-    "nyc": "^14.1.1",
+    "nyc": "^15.0.0",
     "tty-table": "^2.7.0"
   },
   "dependencies": {
