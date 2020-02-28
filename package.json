@@ -45,7 +45,7 @@
     "js-yaml": "^3.13.1",
     "mocha": "^6.1.4",
     "nyc": "^14.1.1",
-    "tty-table": "^2.7.0"
+    "tty-table": "^3.0.0"
   },
   "dependencies": {
     "html-metadata": "^1.7.0",
