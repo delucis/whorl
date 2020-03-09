@@ -19,8 +19,8 @@ DESCRIBE('whorl', function () {
   })
 
   IT('should return an article author from schema.org markup', async () => {
-    let a = await WHORL('http://www.nytimes.com/1982/12/19/books/the-poet-who-found-her-own-way.html')
-    EXPECT(a).to.equal('Rosemary Daniell')
+    let a = await WHORL('https://www.nytimes.com/2016/02/05/t-magazine/entertainment/my-10-favorite-books-alison-bechdel.html?searchResultPosition=1')
+    EXPECT(a).to.equal('Alison Bechdel')
   })
 
   IT('should return an article author from JSON-LD markup', async () => {
