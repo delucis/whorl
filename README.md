@@ -1,6 +1,6 @@
 # whorl ✏️❔
 
-[![npm version](https://img.shields.io/npm/v/whorl.svg)](https://www.npmjs.com/package/whorl) [![Build Status](https://travis-ci.com/delucis/whorl.svg?branch=master)](https://travis-ci.com/delucis/whorl) [![Coverage Status](https://coveralls.io/repos/github/delucis/whorl/badge.svg?branch=master)](https://coveralls.io/github/delucis/whorl?branch=master) [![Known Vulnerabilities](https://snyk.io/test/npm/whorl/badge.svg)](https://snyk.io/test/npm/whorl) [![Greenkeeper badge](https://badges.greenkeeper.io/delucis/whorl.svg)](https://greenkeeper.io/)
+[![npm version](https://img.shields.io/npm/v/whorl.svg)](https://www.npmjs.com/package/whorl) [![Build Status](https://travis-ci.com/delucis/whorl.svg?branch=master)](https://travis-ci.com/delucis/whorl) [![Coverage Status](https://coveralls.io/repos/github/delucis/whorl/badge.svg?branch=master)](https://coveralls.io/github/delucis/whorl?branch=master) [![Known Vulnerabilities](https://snyk.io/test/npm/whorl/badge.svg)](https://snyk.io/test/npm/whorl) 
 
 IPA: /huˌɑɹˈɛl/
 
