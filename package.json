@@ -48,7 +48,7 @@
     "tty-table": "^2.7.0"
   },
   "dependencies": {
-    "html-metadata": "^1.7.0",
+    "html-metadata": "^1.7.1",
     "is-url-superb": "^2.0.0",
     "jsonpath": "^1.0.2"
   }
