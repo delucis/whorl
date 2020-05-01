@@ -14,7 +14,9 @@
     "bench": "npm i --no-save got metascraper node-metainspector unfluff; node bench/bench.js",
     "unbench": "npm un got metascraper node-metainspector unfluff",
     "coverage": "nyc report --reporter=text-lcov | coveralls",
-    "test": "nyc mocha --reporter spec"
+    "test": "nyc mocha --reporter spec",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -50,6 +52,8 @@
   "dependencies": {
     "html-metadata": "^1.7.1",
     "is-url-superb": "^3.0.0",
-    "jsonpath": "^1.0.2"
-  }
+    "jsonpath": "^1.0.2",
+    "snyk": "^1.316.1"
+  },
+  "snyk": true
 }
