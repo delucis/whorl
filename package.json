@@ -50,6 +50,6 @@
   "dependencies": {
     "html-metadata": "^1.7.1",
     "is-url-superb": "^3.0.0",
-    "jsonpath": "^1.0.2"
+    "jsonpath": "^1.1.0"
   }
 }
